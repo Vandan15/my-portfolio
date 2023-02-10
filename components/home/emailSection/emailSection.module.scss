@@ -1,0 +1,121 @@
+@import '../../../styles/mixins/global.scss';
+
+.emailSectionAllContentAlignment {
+    padding: 35px 0 80px 0;
+
+    @include breakpoint("max-sm") {
+        padding: 35px 0 60px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 545px 1fr;
+        gap: 120px;
+
+        @include breakpoint("max-md") {
+            grid-template-columns: repeat(1 , 1fr);
+            gap: 40px;
+        }
+
+        .gridItems {
+            .image {
+                img {
+                    width: 100%;
+                    height: 381px;
+                    object-fit: cover;
+                }
+            }
+            .emailGrid {
+                display: grid;
+                grid-template-columns: 1fr 75px;
+                gap: 20px;
+
+                @include breakpoint("max-sm") {
+                    grid-template-columns: 1fr 45px;
+                }
+
+                .emailGridItems {
+                    .icon {
+                        // width: 45px;
+                        height: 45px;
+                        width: 50px;
+                        background: #FFFFFF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        // border-top-right-radius: 50px;
+                        // border-bottom-right-radius: 50px;
+                        padding: 2px 40px;
+                        &:hover {
+                            opacity: 0.8;
+                        }
+
+                        @include breakpoint("max-sm") {
+                            height: 45px;
+                            padding: 2px 20px;
+                        }
+                    }
+
+                    input {
+                        background: #FFFFFF;
+                        width: 100%;
+                        height: 45px;
+                        padding: 0 39px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 33px;
+                        border: none;
+                        color: #000000;
+                        
+                        &::placeholder {
+                            font-family: 'Poppins';
+                            font-size: 16px;
+                        }
+
+                        @include breakpoint("max-sm") {
+                            height: 45px;
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    ::placeholder {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 33px;
+                        color: #000000;
+                    
+                        @include breakpoint("max-sm") {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+            h4 {
+                font-weight: 400;
+                font-size: 54px;
+                line-height: 62px;
+                font-family: 'Racing Sans One', cursive;
+                margin: 0 0 70px 0;
+                color: #FFFFFF;
+
+                @include breakpoint("max-sm") {
+                    font-size: 32px;
+                    line-height: 42px;
+                    margin: 0 0 42px 0;
+                }
+
+                span {
+                    color:
+                        #C39D13;
+                }
+            }
+        }
+    }
+}

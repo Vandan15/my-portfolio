@@ -1,0 +1,42 @@
+@import '../../styles/mixins/global.scss';
+
+.footeralignment {
+    padding: 100px 0 90px 0;
+
+
+    @include breakpoint("max-sm") {
+        padding: 60px 0;
+    }
+    .socialMediaAlignment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 20px 0;
+        gap: 11px;
+        div {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+margin: 0 0 20px 0;
+color: #FFFFFF;
+    }
+
+    span {
+        display: block;
+        font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+text-align: center;
+    }
+}

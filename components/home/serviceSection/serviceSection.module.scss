@@ -1,0 +1,90 @@
+@import '../../../styles/mixins/global.scss';
+
+.servicesSectionAllContent {
+    background: rgba(217, 217, 217, 0.1);
+    padding: 45px 0;
+
+    .grid {
+        display: flex;
+        gap: 100px;
+
+        @include breakpoint("max-md") {
+            display: block;
+        }
+
+        .gridItems:nth-child(1) {
+            width: 296px;
+
+            @include breakpoint("max-md") {
+                width: 100%;
+            }
+        }
+
+        .gridItems:nth-child(2) {
+            width: calc(100% - 325px);
+
+            @include breakpoint("max-md") {
+                width: 100%;
+            }
+        }
+        :global(.slick-slide) {
+            padding: 0 8px;
+        }
+        :global(.slick-list) {
+            margin: 0 -8px;
+        }
+        .sliderCard {
+            background: #151515;
+            padding: 21px;
+
+            .iconDesign {
+                padding: 0 0 21px 0;
+                img {
+                    max-height: 50px;
+                    object-fit: contain !important;
+                }
+            }
+
+            h4 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin: 0 0 6px 0;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                margin: 0;
+                color: #FFFFFF;
+            }
+        }
+
+
+        .textStyle {
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                margin: 0 0 11px 0;
+                color: #FFFFFF;
+            }
+
+            span {
+                display: block;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #FFFFFF;
+
+                @include breakpoint("max-md") {
+                    padding: 0 0 40px 0;
+                }
+
+            }
+
+        }
+    }
+}
