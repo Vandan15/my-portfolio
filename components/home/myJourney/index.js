@@ -46,8 +46,8 @@ export default function MyJourney() {
                             <h4>Bachelor of Engineering</h4>
                             <h5>S.S Agrawal Institute of Engineering & Technology, 2016-2020</h5>
                             <p>
-                                I started my career with bachelor degree in Computer Engineering
-                                Passionately learning Basics of web development and creating User Defined Projects.
+                                I started my career with bachelor degree in Computer Engineering.
+                                I was passionately learning Advanced Programming and creating User Defined Projects.
                             </p>
                             <h6>2019</h6>
                         </div>

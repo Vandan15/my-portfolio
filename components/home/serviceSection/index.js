@@ -7,7 +7,15 @@ const LeftIcon = '/assets/icons/slider-left.svg';
 const MarketingIcon = '/assets/icons/marketing.png';
 const BrandIcon = '/assets/icons/brand.png';
 const CustomIcon = '/assets/icons/custom.png';
-const UIIcon = '/assets/icons/ui-ux.png';
+const UIIcon = '/assets/icons/figma.svg';
+const TailwindIcon = '/assets/icons/tailwind.svg';
+const ReactIcon = '/assets/icons/react.svg';
+const NextIcon = '/assets/icons/next.png';
+const VueIcon = '/assets/icons/vue.svg';
+const GraphQLIcon = '/assets/icons/graphql.svg';
+const NodeIcon = '/assets/icons/node.png';
+const BootstrapIcon = '/assets/icons/bootstrap.svg';
+const ComminicationIcon = '/assets/icons/chat.png';
 const GrowthIcon = '/assets/icons/strategy.png';
 
 function SampleNextArrow(props) {
@@ -77,12 +85,12 @@ export default function ServiceSection() {
     };
     return (
         <div>
-            <div className={styles.servicesSectionAllContent} id="#services">
+            <div className={styles.servicesSectionAllContent}>
                 <div className='container'>
                     <div className={styles.grid}>
                         <div className={styles.gridItems}>
                             <div className={styles.textStyle}>
-                                <p>Area of Interest</p>
+                                <p>Key Knowledge</p>
                                 <span>
                                     Investing my knowledge in building a technical
                                     environment that contributes in boosting growth, engagement and productivity.
@@ -94,7 +102,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={WebIcon} alt="BlueIcon" />
+                                            <img src={ComminicationIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Communication</h4>
                                         <p>
@@ -106,7 +114,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={WebIcon} alt="BlueIcon" />
+                                            <img src={ReactIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>React JS</h4>
                                         <p>
@@ -118,7 +126,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={WebIcon} alt="BlueIcon" />
+                                            <img src={NextIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Next JS</h4>
                                         <p>
@@ -130,7 +138,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={WebIcon} alt="BlueIcon" />
+                                            <img src={VueIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Vue JS</h4>
                                         <p>
@@ -142,7 +150,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={UIIcon} alt="BlueIcon" />
+                                            <img src={NodeIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Express JS | REST APIs</h4>
                                         <p>
@@ -154,7 +162,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={MobileIcon} alt="BlueIcon" />
+                                            <img src={GraphQLIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>GraphQL</h4>
                                         <p>
@@ -178,7 +186,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={CustomIcon} alt="BlueIcon" />
+                                            <img src={TailwindIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Tailwind</h4>
                                         <p>
@@ -190,7 +198,7 @@ export default function ServiceSection() {
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
-                                            <img src={CustomIcon} alt="BlueIcon" />
+                                            <img src={BootstrapIcon} alt="BlueIcon" />
                                         </div>
                                         <h4>Bootstrap</h4>
                                         <p>

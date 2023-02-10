@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './heroBanner.module.scss';
-const HeroImage = '/assets/images/hero-banner.jpeg';
+const HeroImage = '/assets/images/hero-banner-1.jpeg';
 const LeftIcon = '/assets/icons/left-arrow.svg';
 const LinkdinIcon = '/assets/icons/linkdin.svg';
 const FacebookIcon = '/assets/icons/facebook.svg';
@@ -8,6 +8,9 @@ const InstaIcon = '/assets/icons/insta.svg';
 const twitterIcon = '/assets/icons/twt.svg';
 
 export default function HeroBanner() {
+  const handleClick = (link) => {
+    window.open(link,'_blank')
+  }
   return (
     <div>
       <div className={styles.heroBannercontentAlignment} id="#home">
@@ -17,8 +20,10 @@ export default function HeroBanner() {
               <div className={styles.leftcontent}>
                 <span>I’m</span>
                 <h2>Vandan Khamkar</h2>
-                <h3>Currently I am looking for a Senior Position in well known company as a React Frontend Web Developer</h3>
-                <h3>Professionally I am a Javascript Full Stack Web Developer with proficient skills in developing CRMs, E-commerce, Web Portals, Web Apps & Blogs. My personal commitment to quality and on-schedule delivery makes me stand apart from others. If you are on the lookout for a hard-working and dedicated person, do connect with me.</h3>
+                <h3>Looking for a Senior Position in well known company as a React Frontend Web Developer.</h3>
+                <h3>Professionally I am a Javascript Full Stack Web Developer with proficient skills in developing CRMs, E-commerce, Web Portals, Web Apps & Blogs. My personal commitment to quality and on-schedule delivery makes me stand apart from others.</h3> 
+                <h3>If you are on the lookout for a hard-working and dedicated person, do connect with me.</h3>
+                <hr></hr>
                 <a>Email: vandankhamkar1@gmail.com</a>
                 <a>Phone: +91 812877872</a>
                 <a>Location: Navsari, Gujarat, IN</a>
@@ -39,16 +44,16 @@ export default function HeroBanner() {
                 </button>
                 <div className={styles.socialIcon}>
               <div>
-                <img src={LinkdinIcon} alt="LinkdinIcon" title="LinkedIn" onClick={() => handleClick()}/>
+                <img src={LinkdinIcon} alt="LinkdinIcon" title="LinkedIn" onClick={() => handleClick("https://www.linkedin.com/in/vandan-khamkar-525aa8144/")}/>
               </div>
               <div>
-                <img src={FacebookIcon} alt="FacebookIcon" title="Facebook" onClick={() => handleClick()}/>
+                <img src={FacebookIcon} alt="FacebookIcon" title="Facebook" onClick={() => handleClick("https://www.facebook.com/vandankhamkar2/")}/>
               </div>
               <div>
-                <img src={InstaIcon} alt="InstaIcon" title="Instagram" onClick={() => handleClick()}/>
+                <img src={InstaIcon} alt="InstaIcon" title="Instagram" onClick={() => handleClick("https://www.instagram.com/khamkarvandan/")}/>
               </div>
               <div>
-                <img src={twitterIcon} alt="twitterIcon" title="Twitter" onClick={() => handleClick()}/>
+                <img src={twitterIcon} alt="twitterIcon" title="Twitter" onClick={() => handleClick("https://twitter.com/vandan115/")}/>
               </div>
             </div>
               </div>
@@ -63,7 +68,7 @@ export default function HeroBanner() {
               <h4>15+</h4>
               <span>Completed Projects</span>
             </div>
-            <div className={styles.cardGridItems}>
+            <div className={styles.cardGridItems} id="#services">
               <h4>10+</h4>
               <span>Tech Skills</span>
             </div>

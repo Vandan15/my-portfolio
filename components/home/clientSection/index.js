@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './clientSection.module.scss';
 const RightIcon = '/assets/icons/right.svg';
-const ProfileImage = '/assets/images/main-profile.png';
+const ProfileImage = '/assets/images/hero-banner.jpeg';
 
 export default function ClientSection() {
   return (
