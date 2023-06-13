@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react'
 import Footer from '../footer';
 import Header from '../header';
@@ -10,6 +11,9 @@ import ServiceSection from './serviceSection';
 export default function HomePage() {
   return (
     <div>
+      <Head>
+        <title>Sr. React Web Developer | Vandan Khamkar</title>
+      </Head>
         <Header/>
         <HeroBanner/>
         <ServiceSection/>

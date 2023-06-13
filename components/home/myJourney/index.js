@@ -22,15 +22,14 @@ export default function MyJourney() {
                             <h4>Sr. Frontend Web Developer</h4>
                             <h5>LANET Pvt Ltd, 2022-Present</h5>
                             <p>
-                                Working as a senior React javascript Developer. I am working & communicating with UK clients and parallaly providing mentorship to Interns/Trainees. Pitching to clients for increasing company's growth.</p>
+                                Working as a senior React javascript Developer. Also I am working & communicating with Foreign clients and parallaly providing mentorship to Interns/Trainees. Pitching to clients for increasing company's growth.</p>
                             <h6>2023</h6>
                         </div>
                         <div className={styles.gridItems}>
                             <h4>Programmer Analyst</h4>
                             <h5>LANET Pvt Ltd, 2022</h5>
                             <p>
-                                I was working as a Junior React Javascript Developer. My role was to communicate with foreign clients and complete tasks in given period of time.
-                                I've worked on React JS & Next JS.
+                                I was working as a Junior React Javascript Developer. Accomplished expert knowledge on CRMs, Blogs & E-commerce sites built with expert knowledge of React JS & Next JS.
                             </p>
                             <h6>2021</h6>
                         </div>

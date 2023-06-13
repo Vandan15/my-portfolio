@@ -21,11 +21,12 @@ export default function HeroBanner() {
                 <span>I’m</span>
                 <h2>Vandan Khamkar</h2>
                 <h3>Looking for a Senior Position in well known company as a React Frontend Web Developer.</h3>
-                <h3>Professionally I am a Javascript Full Stack Web Developer with proficient skills in developing CRMs, E-commerce, Web Portals, Web Apps & Blogs. My personal commitment to quality and on-schedule delivery makes me stand apart from others.</h3> 
+                <h3>Professionally I am a Javascript Full Stack Web Developer with proficient skills in developing CRMs, E-commerce, Web Portals, Web Apps & Blogs.</h3>
+                <h3><i>"My personal commitment to quality and on-schedule delivery makes me stand apart from others."</i></h3> 
                 <h3>If you are on the lookout for a hard-working and dedicated person, do connect with me.</h3>
                 <hr></hr>
-                <a>Email: vandankhamkar1@gmail.com</a>
-                <a>Phone: +91 812877872</a>
+                <a href='mailto:vandankhamkar1@gmail.com'>Email: vandankhamkar1@gmail.com</a>
+                <a href='tel:+91 8128770872'>Phone: +91 8128770872</a>
                 <a>Location: Navsari, Gujarat, IN</a>
               </div>
             </div>
@@ -37,7 +38,7 @@ export default function HeroBanner() {
             <div className={styles.gridItems}>
               <div className={styles.rightContent}>
                 <h3>Sr. Frontend Web Developer</h3>
-                <p>I've 3+ years of working experience creating web applications using React Library. I have keen expertise in creating UIs, Integration of SDKs & APIs. See my area of interest. </p>
+                <p>I've 3+ years of working experience creating web applications using React Library. I have keen expertise in communication, creating UIs, Product Management, Integration of SDKs & APIs. See my area of interest. </p>
                 <button onClick={() => document.getElementById('#services').scrollIntoView()}>
                   <span>Get me there</span>
                   <img src={LeftIcon} alt="LeftIcon"/>
@@ -61,11 +62,11 @@ export default function HeroBanner() {
           </div>
           <div className={styles.cardGrid}>
             <div className={styles.cardGridItems}>
-              <h4>3+</h4>
+              <h4>3.5+</h4>
               <span>Years Experience</span>
             </div>
             <div className={styles.cardGridItems}>
-              <h4>15+</h4>
+              <h4>20+</h4>
               <span>Completed Projects</span>
             </div>
             <div className={styles.cardGridItems} id="#services">

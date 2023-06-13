@@ -17,6 +17,7 @@ const NodeIcon = '/assets/icons/node.png';
 const BootstrapIcon = '/assets/icons/bootstrap.svg';
 const ComminicationIcon = '/assets/icons/chat.png';
 const GrowthIcon = '/assets/icons/strategy.png';
+const serverIcon = '/assets/icons/server.svg';
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -49,7 +50,7 @@ export default function ServiceSection() {
         dots: false,
         infinite: true,
         speed: 500,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -90,7 +91,7 @@ export default function ServiceSection() {
                     <div className={styles.grid}>
                         <div className={styles.gridItems}>
                             <div className={styles.textStyle}>
-                                <p>Key Knowledge</p>
+                                <p>Expert Knowledge</p>
                                 <span>
                                     Investing my knowledge in building a technical
                                     environment that contributes in boosting growth, engagement and productivity.
@@ -106,8 +107,8 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Communication</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            Successful communication helps us better understand people and situations. It helps us overcome diversities, build trust and respect, and create conditions for sharing creative ideas and solving problems.
+                                            As a Senior Web Developer I know how to manage/talk with people around me.
                                         </p>
                                     </div>
                                 </div>
@@ -118,8 +119,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>React JS</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            A deep knowledge on creating re-usable components with knowledge of code optimsation. As a React Developer I convert imaginations into reality. I have 3+ years of experience on React JS Development.
                                         </p>
                                     </div>
                                 </div>
@@ -130,8 +130,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Next JS</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            SEO Drives High-quality Traffic to Your Website. As a Javascript Developer I use Next JS to perform server side rendering for beter better SEO optimisaion. I have 2+ years of experiece in Next JS Development.
                                         </p>
                                     </div>
                                 </div>
@@ -142,8 +141,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Vue JS</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                           Begining of my career I've started with Vue JS. I've 6 months of knowledge of creating Re-usable UIs and templates in Vue JS. I'hve worked on development of Form Builder Application using Vue JS.
                                         </p>
                                     </div>
                                 </div>
@@ -154,8 +152,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Express JS | REST APIs</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            As a full stack web developer I have a good knowledge to create REST APIs. I have 6 months of hands on knowledge building REST APIs with core 2FA authentications. I use Mongo compass, postman, swagger, Dbeaver tools to manage my Backend Development Process.
                                         </p>
                                     </div>
                                 </div>
@@ -166,8 +163,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>GraphQL</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            GraphQL is in need when request is dynamic. I have used GraphQL in React/Next JS to perform optimised API calls.
                                         </p>
                                     </div>
                                 </div>
@@ -178,12 +174,11 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>UI/UX Design</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                           As a UI/UX Designer I know how to create eye catching web UIs, Mobile UIs, Prototyping & Wireframes. Also I design social media posts for marketing.
                                         </p>
                                     </div>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
                                             <img src={TailwindIcon} alt="BlueIcon" />
@@ -194,7 +189,7 @@ export default function ServiceSection() {
                                             has been the industrys standard dummy text ever since the 1500s.
                                         </p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div>
                                     <div className={styles.sliderCard}>
                                         <div className={styles.iconDesign}>
@@ -202,8 +197,7 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Bootstrap</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                            As a web designer I use Bootstrap to create fast and optimised layouts for websites. This helps me to design UIs very quickly.
                                         </p>
                                     </div>
                                 </div>
@@ -215,8 +209,18 @@ export default function ServiceSection() {
                                         </div>
                                         <h4>Product Management</h4>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                            has been the industrys standard dummy text ever since the 1500s.
+                                           I use Jeera, Monday.com, or ClickUp to manage my Product Development flows. I am very keen to manage my product life cycles delivering milestones on/before time.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className={styles.sliderCard}>
+                                        <div className={styles.iconDesign}>
+                                            <img src={serverIcon} alt="BlueIcon" />
+                                        </div>
+                                        <h4>Web Hosting</h4>
+                                        <p>
+                                            I have an expertise to host and configure servers to deploy websites quickly. I configure VPS servers and Proxy servers to get sites deployed.
                                         </p>
                                     </div>
                                 </div>
