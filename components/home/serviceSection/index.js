@@ -172,9 +172,9 @@ export default function ServiceSection() {
                                         <div className={styles.iconDesign}>
                                             <img src={UIIcon} alt="BlueIcon" />
                                         </div>
-                                        <h4>UI/UX Design</h4>
+                                        <h4>UX/UI Design</h4>
                                         <p>
-                                           As a UI/UX Designer I know how to create eye catching web UIs, Mobile UIs, Prototyping & Wireframes. Also I design social media posts for marketing.
+                                           As a UX/UI Designer I know how to create eye catching web UIs, Mobile UIs, Prototyping & Wireframes. Also I design social media posts for marketing.
                                         </p>
                                     </div>
                                 </div>
